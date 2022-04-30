@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@200&display=swap');
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+    margin:auto;
+    width: 40%;
+    /* margin-top: 20%; */
+    height: 55vh;
+}
+.container .cell{
+    background-color: lightgreen;
+    border: 2px solid black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    width: 100%;
+    color: red;
+    font-family: 'Inconsolata', monospace;
+
+}
+.container .cell:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+#display{
+    width:60%;
+    margin: auto;
+    padding: 2%;
+    border: 2px solid black;
+    color: black;
+    font-size: 40px;
+    height:40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+    margin-bottom: 2%;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.btn{
+    background-color: white;
+    color: purple;
+    border: 2px solid purple;
+    width: 100px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Inconsolata';
+    border-radius: 20px;
+    font-weight:300;
+    margin-bottom: 2%;
+}
+.btn:hover{
+    background-color: purple;
+    color:white;
+    cursor: pointer;
+}
