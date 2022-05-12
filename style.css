@@ -2,11 +2,12 @@
 
 .container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
     border: 1px solid black;
     margin:auto;
     width: 40%;
-    /* margin-top: 20%; */
+    margin-top: 2%;
     height: 55vh;
 }
 .container .cell{
@@ -39,11 +40,31 @@
     background-color: lightgray;
     margin-bottom: 2%;
 }
+.inner-display{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
 .but{
+    /* width:50%; */
     display: flex;
     justify-content: center;
     /* border: 2px solid black; */
 }
+/* #score1{
+    margin:10%;
+    margin-left: 2%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#score2{
+    margin:10%;
+    margin-right: -2%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+} */
 .btn{
     background-color: white;
     color: purple;

@@ -1,17 +1,17 @@
 var cell = Array.from(document.getElementsByClassName('cell'));
 var display = document.getElementById("display");
 
-var score1= document.getElementById("score");
-// var score2= document.getElementById("score2");
+var score1= document.getElementById("score1");
+var score2= document.getElementById("score2");
 
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', clickHandler);
 
 var player1_score=0;
-var player2_score=0;
+var player2_score=2;
 
-// score1.innerText(player1_score);
-// score1.innerText(player1_score);
+// score1.innerHTML="Player 1 score: "+player1_score;
+// score2.innerHTML="Player 2 score: "+player2_score;
 
 
 var grid = [];
